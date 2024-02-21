@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.card-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* width: 20%; */
+}
+.card-box{
+    border: 2px solid rgb(148, 147, 147);
+    width:25%;
+    margin: 1rem;
+}
+.card-img{
+    padding: 4px;
+}
+.card-img img{
+    width: 90%;
+    
+}
+.img-description{
+    width: 100%;
+}
+.img-description h4{
+    margin: 8px;
+}
+.img-description p{
+    margin: 8px;
+}
+.item-link{
+    background: blue;
+    color: #fff;
+    margin: 8px;
+    border-radius: 4px;
+    padding: 4px;
+}
